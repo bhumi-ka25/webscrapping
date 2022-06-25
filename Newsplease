@@ -1,0 +1,24 @@
+<sup>News Please</sup>
+
+news-please is an open source, easy-to-use news crawler that extracts structured information from almost any news website. 
+It can recursively follow internal hyperlinks and read RSS feeds to fetch both most recent and also old, archived articles.
+You only need to provide the root URL of the news website to crawl it completely. news-please combines the power of multiple state-of-the-art libraries and tools,
+such as scrapy, Newspaper, and readability. news-please also features a library mode,which allows Python developers to use the crawling and extraction functionality 
+within their own program.
+
+***news-please extracts the following attributes from news articles. An examplary json file as extracted by news-please can be found here.***
+
+-headline
+-lead paragraph
+-main text
+-main image
+-name(s) of author(s)
+-publication date
+-language
+
+<sub>Code for How to use NewsPlease</sub>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset=""C:\Users\gbhum\OneDrive\Desktop\1.png"">
+</picture>
+
+
