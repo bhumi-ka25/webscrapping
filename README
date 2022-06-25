@@ -1,0 +1,22 @@
+PyGoogleNews
+
+PyGoogleNews, created by the NewsCatcher Team, acts like a Python wrapper for Google News or an unofficial Google News API.
+It is based on one simple trick: it exploits a lightweight Google News RSS feed.
+
+Data which can be scrapped are:
+1)Top stories
+2)Topic-related news feeds
+3)Geolocation specific news feed
+4)An extensive query-based search feed
+
+
+When web-scraping news articles with this library, for every news entry that you capture, you get the following data points,
+that you can use for data processing, or training your machine learning model, or running NLP scripts:
+
+Title - contains the Headline for the article
+Link - the original link for the article
+Published - the date on which it was published
+Summary - the article summary
+Source - the website on which it was published
+Sub-Articles - list of titles, publishers, and links that are on the same topic
+
